@@ -1,0 +1,3 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Voiture	Image_Voiture	RUB+		Image_Voiture est une nouvelle rubrique
+Voiture	Image	RUB-		la rubrique Image est supprimée

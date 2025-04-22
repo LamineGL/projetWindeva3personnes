@@ -1,0 +1,18 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Utilisateur		NFI		nouveau fichier
+Client		NFI		nouveau fichier
+Categorie		NFI		nouveau fichier
+Voiture		NFI		nouveau fichier
+Location		NFI		nouveau fichier
+Paiement		NFI		nouveau fichier
+Inspection		NFI		nouveau fichier
+Entretien		NFI		nouveau fichier
+Voiture_Location		NFI		nouveau fichier
+Contrainte_Client_Location		NWL	Client (IDClient) et Location (IDClient)	Nouvelle liaison entre les fichiers Client (IDClient) et Location (IDClient)
+Contrainte_Voiture_Location		NWL	Voiture (IDVoiture) et Voiture_Location (IDVoiture)	Nouvelle liaison entre les fichiers Voiture (IDVoiture) et Voiture_Location (IDVoiture)
+Contrainte_Location_Voiture		NWL	Location (IDLocation) et Voiture_Location (IDLocation)	Nouvelle liaison entre les fichiers Location (IDLocation) et Voiture_Location (IDLocation)
+Contrainte_Categorie_Voiture		NWL	Categorie (IDCategorie) et Voiture (IDCategorie)	Nouvelle liaison entre les fichiers Categorie (IDCategorie) et Voiture (IDCategorie)
+Contrainte_Utilisateur_Location		NWL	Utilisateur (IDUtilisateur) et Location (IDUtilisateur)	Nouvelle liaison entre les fichiers Utilisateur (IDUtilisateur) et Location (IDUtilisateur)
+Contrainte_Paiement_Location		NWL	Location (IDLocation) et Paiement (IDLocation)	Nouvelle liaison entre les fichiers Location (IDLocation) et Paiement (IDLocation)
+Contrainte_Voiture_Location_Inspection		NWL	Voiture_Location (IDVoiture_IDLocation) et Inspection (IDVoiture_IDLocation)	Nouvelle liaison entre les fichiers Voiture_Location (IDVoiture_IDLocation) et Inspection (IDVoiture_IDLocation)
+Contrainte_Entretien_Voiture		NWL	Voiture (IDVoiture) et Entretien (IDVoiture)	Nouvelle liaison entre les fichiers Voiture (IDVoiture) et Entretien (IDVoiture)

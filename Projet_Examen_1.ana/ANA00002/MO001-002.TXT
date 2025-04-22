@@ -1,0 +1,6 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Voiture		TAR	444	nouvelle taille enregistrement : 444
+Voiture	Image	RUB+		Image est une nouvelle rubrique
+Facture		NFI		nouveau fichier
+Contrainte_Paiement_Facture		NWL	Paiement (IDPaiement) et Facture (IDPaiement)	Nouvelle liaison entre les fichiers Paiement (IDPaiement) et Facture (IDPaiement)
+Contrainte_Facture_Client		NWL	Client (IDClient) et Facture (IDClient)	Nouvelle liaison entre les fichiers Client (IDClient) et Facture (IDClient)
